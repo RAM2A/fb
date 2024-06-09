@@ -1,9 +1,9 @@
 from os import environ
 class Config(object):
-    API_ID = environ.get("API_ID", None)
-    API_HASH = environ.get("API_HASH", None)
-    BOT_TOKEN = environ.get("BOT_TOKEN", None)
-    STRING_SESSION = environ.get("STRING", None)
+    API_ID = environ.get("API_ID", 24665357)
+    API_HASH = environ.get("API_HASH", "beb7e4b83ada668fa85f9a9b56338f1d")
+    BOT_TOKEN = environ.get("BOT_TOKEN", "6710116600:AAHfY2VAo9k0PNLfbI_ypODOh11h6s8-q4w")
+    STRING_SESSION = environ.get("STRING", "BQF4XQ0AMmHAQSs90w8BFOcXLMfQdTTfLL7lUGyd5pZlBEIZCTmqBEiTRxQapBxHY3XOg5xLhZCZGc-BjKs8UI96vhfT_gF_uGCqhjIf33t5lRfom_g86bdq7PsgvrTQOssfQGLU4NXChfnAHE9I7HGEFJ8QePkPSIJPdj36HeaNCOAD4opBRapD4wwZnFIM0Vhi5cYmlCUfZXBwj7kEAB3DLVq5aVnvLtbdIq6Zk8TFDfFEqE3WwFz-uxsB1hzQLG2vg_MzfXpEkR0qspRS_SpoQxZcNnBoqsV1gWNFpN_pQZ3azTae5TPGLa7_0qiFt-TYJtS5956d54wuaDUD5yPjWX4tkgAAAABmXyPCAA")
     SUDO_USERS = environ.get("SUDO_USERS", None)
     COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "^/")
     HELP_MSG = """
